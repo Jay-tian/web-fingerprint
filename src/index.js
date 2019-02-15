@@ -1,4 +1,4 @@
-class Fingerprint {
+module.exports = class Fingerprint {
     constructor(params) {
       this.params = Object.assign({
         size: '30px',
