@@ -1,0 +1,33 @@
+{
+  "name": "web-fingerprint",
+  "version": "1.0.0",
+  "description": "web fingerprint",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay-tian/web-fingerprint.git"
+  },
+  "keywords": [
+    "fingerprint"
+  ],
+  "author": "jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay-tian/web-fingerprint/issues"
+  },
+  "homepage": "https://github.com/Jay-tian/web-fingerprint#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "7",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.1",
+    "jshint": "^2.10.1"
+  }
+}
